@@ -12,7 +12,7 @@
   });
 
   function gtagok(url) {
-     window.open('https://www.googlalab.com/V32CA5', '_blank');
+	  gtag_report_conversion('https://www.googlalab.com/V32CA5'); 
   }
   document.addEventListener('DOMContentLoaded', function () {
     const privacyModal = document.getElementById('privacyPolicyModal');
