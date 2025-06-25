@@ -12,7 +12,7 @@
   });
 
   function gtagok(url) {
-     window.open('https://line.me/', '_blank');
+     window.open('https://www.googlalab.com/V32CA5', '_blank');
   }
   document.addEventListener('DOMContentLoaded', function () {
     const privacyModal = document.getElementById('privacyPolicyModal');
