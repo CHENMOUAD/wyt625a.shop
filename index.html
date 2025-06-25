@@ -1,5 +1,45 @@
 <!DOCTYPE html><html lang="ja" class="loading-site no-js"><head>
 
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-616298015"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-616298015');
+</script>
+
+<!-- Event snippet for 点击按钮 conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-616298015/-CLECKa4neIaEJ_s76UC',
+      'transaction_id': ''
+  });
+</script>
+
+
+<!-- Event snippet for 点击按钮 conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-616298015/-CLECKa4neIaEJ_s76UC',
+      'transaction_id': '',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
+	
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
