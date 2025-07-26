@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+	<script>
+        function k2() {
+            window.open('https://www.qq.com', '_blank');
+        }
+    </script>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テスタ LINE公式アカウント</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .breathing {
+            animation: breathing 2s ease-in-out infinite;
+        }
+        @keyframes breathing {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+    </style>
+</head>
+<body class="bg-white min-h-screen">
+    <div class="max-w-md mx-auto px-4 py-8">
+        <!-- 调用图1 -->
+        <div class="text-center mb-8">
+            <img 
+                src="img/66.jpg"
+                alt=""
+                class="mx-auto rounded-full object-cover"
+                style="width: 120px; height: 120px;"
+            />
+        </div>
+
+        <!-- 文案 -->
+        <div class="text-center mb-8">
+            <h1 class="text-xl font-bold text-gray-900 mb-4">熊谷 亮</h1>
+            <p class="text-lg leading-relaxed text-gray-900 mb-4">
+                熊谷 亮 のLINEを無料で追加して「7」と送信するだけで、明日上がる銘柄がわかります！LINEを追加するだけで、無料で情報を受け取ることができ、毎週30％の利益を約束する優良株も手に入ります
+            </p>
+            <p class="text-lg leading-relaxed text-gray-900">
+              今すぐ参加して、優良株をゲットしましょう！
+            </p>
+        </div>
+
+        <!-- 行动号召1 -->
+        <div class="text-center mb-8">
+            <img 
+                src="img/2.png"
+                alt=""
+                class="w-full mx-auto cursor-pointer breathing"
+                onclick="k2()"
+            />
+        </div>
+
+        <!-- 调用图2 -->
+        <div class="text-center mb-8">
+            <img 
+                src="img/77.jpg"
+                alt=""
+                class="w-full mx-auto"
+            />
+        </div>
+
+        <!-- 行动号召2 -->
+        <div class="text-center mb-8">
+            <img 
+                src="img/2.png"
+                alt=""
+                class="w-full mx-auto cursor-pointer breathing"
+                onclick="k2()"
+            />
+        </div>
+    </div>
+
+    
+</body>
+</html>
